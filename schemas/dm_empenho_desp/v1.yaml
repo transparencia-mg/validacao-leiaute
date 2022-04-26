@@ -1,0 +1,57 @@
+fields:
+  - type: integer
+    name: id_empenho
+  - type: integer
+    name: ano_exercicio
+  - type: integer
+    name: sqa_gmifp
+  - type: integer
+    name: sqa_credor
+  - type: integer
+    name: sqa_natureza
+  - type: integer
+    name: sqa_unidade_orc
+  - type: integer
+    name: sqa_progtrab
+  - type: integer
+    name: sqa_unidade_exec
+  - type: integer
+    name: sqa_empenho
+  - type: integer
+    name: nr_empenho
+  - type: string
+    name: dt_empenho
+  - type: string
+    name: unidade_orcamentaria
+  - type: string
+    name: unidade_executora
+  - type: string
+    name: funcao
+  - type: string
+    name: subfuncao
+  - type: string
+    name: programa
+  - type: string
+    name: acao
+  - type: string
+    name: categoria_econ
+  - type: string
+    name: grupo_desp
+  - type: string
+    name: elemento_desp
+  - type: string
+    name: item_desp
+  - type: string
+    name: modalidade_aplic
+  - type: string
+    name: tipo_empenho
+  - type: string
+    name: fonte_recurso
+  - type: string
+    name: identificador_orc
+  - type: string
+    name: razao_social_credor
+  - type: string
+    name: vr_empenho
+  - type: string
+    name: desc_historico
