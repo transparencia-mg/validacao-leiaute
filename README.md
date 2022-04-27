@@ -37,7 +37,11 @@ make all
 
 ## Apêndice
 
-Comandos para limpeza dos arquivos `archive/bad/`
+Comandos para limpeza dos arquivos `archive/bad/` que não respeitam o item 7 da [RFC 4180](https://datatracker.ietf.org/doc/html/rfc4180)
+
+> 7. If double-quotes are used to enclose fields, then a double-quote appearing inside a field must be escaped by preceding it with another double quote. For example:
+> 
+> `"aaa","b""bb","ccc"`
 
 ```bash
 sed -e '27482 s/""ABNT 14.865""/""ABNT 14.865"""/' \
