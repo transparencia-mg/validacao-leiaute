@@ -1,3 +1,119 @@
 {
-
+  "version": "4.29.0",
+  "time": 7.979,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "path": "data/dm_processo.csv",
+        "schema": {
+          "fields": [
+            {
+              "type": "integer",
+              "name": "id_processo"
+            },
+            {
+              "type": "integer",
+              "name": "cd_orgao"
+            },
+            {
+              "type": "integer",
+              "name": "cd_processo"
+            },
+            {
+              "type": "string",
+              "name": "cd_processo_formatado"
+            },
+            {
+              "name": "url_edital",
+              "type": "any"
+            },
+            {
+              "type": "string",
+              "name": "orgao"
+            },
+            {
+              "type": "string",
+              "name": "procedimento"
+            },
+            {
+              "type": "string",
+              "name": "objeto"
+            },
+            {
+              "type": "string",
+              "name": "situacao"
+            },
+            {
+              "type": "string",
+              "name": "criterio_julgamento"
+            },
+            {
+              "type": "string",
+              "name": "tp_licitacao"
+            },
+            {
+              "type": "string",
+              "name": "dt_cad_processo"
+            },
+            {
+              "type": "string",
+              "name": "vr_referencia"
+            },
+            {
+              "type": "string",
+              "name": "vr_homologado"
+            }
+          ]
+        },
+        "name": "dm_processo",
+        "profile": "tabular-data-resource",
+        "scheme": "file",
+        "format": "csv",
+        "hashing": "md5",
+        "stats": {
+          "hash": "b94766144226eed90d600ec8c3292126",
+          "bytes": 91552797,
+          "fields": 14,
+          "rows": 321695
+        },
+        "encoding": "utf-8",
+        "dialect": {
+          "delimiter": ";"
+        }
+      },
+      "time": 7.979,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 0,
+    "tasks": 1
+  },
+  "valid": true
 }

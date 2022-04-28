@@ -1,3 +1,175 @@
 {
-  
+  "version": "4.29.0",
+  "time": 0.056,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "path": "data/dm_empenho_desp.csv",
+        "schema": {
+          "fields": [
+            {
+              "type": "integer",
+              "name": "id_empenho"
+            },
+            {
+              "type": "integer",
+              "name": "ano_exercicio"
+            },
+            {
+              "type": "integer",
+              "name": "sqa_gmifp"
+            },
+            {
+              "type": "integer",
+              "name": "sqa_credor"
+            },
+            {
+              "type": "integer",
+              "name": "sqa_natureza"
+            },
+            {
+              "type": "integer",
+              "name": "sqa_unidade_orc"
+            },
+            {
+              "type": "integer",
+              "name": "sqa_progtrab"
+            },
+            {
+              "type": "integer",
+              "name": "sqa_unidade_exec"
+            },
+            {
+              "type": "integer",
+              "name": "sqa_empenho"
+            },
+            {
+              "type": "integer",
+              "name": "nr_empenho"
+            },
+            {
+              "type": "string",
+              "name": "dt_empenho"
+            },
+            {
+              "type": "string",
+              "name": "unidade_orcamentaria"
+            },
+            {
+              "type": "string",
+              "name": "unidade_executora"
+            },
+            {
+              "type": "string",
+              "name": "funcao"
+            },
+            {
+              "type": "string",
+              "name": "subfuncao"
+            },
+            {
+              "type": "string",
+              "name": "programa"
+            },
+            {
+              "type": "string",
+              "name": "acao"
+            },
+            {
+              "type": "string",
+              "name": "categoria_econ"
+            },
+            {
+              "type": "string",
+              "name": "grupo_desp"
+            },
+            {
+              "type": "string",
+              "name": "elemento_desp"
+            },
+            {
+              "type": "string",
+              "name": "item_desp"
+            },
+            {
+              "type": "string",
+              "name": "modalidade_aplic"
+            },
+            {
+              "type": "string",
+              "name": "tipo_empenho"
+            },
+            {
+              "type": "string",
+              "name": "fonte_recurso"
+            },
+            {
+              "type": "string",
+              "name": "identificador_orc"
+            },
+            {
+              "type": "string",
+              "name": "razao_social_credor"
+            },
+            {
+              "type": "string",
+              "name": "vr_empenho"
+            },
+            {
+              "type": "string",
+              "name": "desc_historico"
+            }
+          ]
+        },
+        "name": "dm_empenho_desp",
+        "profile": "tabular-data-resource",
+        "scheme": "file",
+        "format": "csv",
+        "hashing": "md5",
+        "stats": {
+          "hash": "88675f5ca4d28cdc3d36868bfcfe608c",
+          "bytes": 7333,
+          "fields": 28,
+          "rows": 5
+        },
+        "encoding": "utf-8",
+        "dialect": {
+          "delimiter": ";"
+        }
+      },
+      "time": 0.056,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 0,
+    "tasks": 1
+  },
+  "valid": true
 }
