@@ -1,3 +1,219 @@
 {
-
+  "version": "4.29.0",
+  "time": 12.727,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "path": "data/dm_processo.csv",
+        "schema": {
+          "fields": [
+            {
+              "type": "integer",
+              "name": "id_processo"
+            },
+            {
+              "type": "integer",
+              "name": "cd_orgao"
+            },
+            {
+              "type": "integer",
+              "name": "cd_processo"
+            },
+            {
+              "type": "string",
+              "name": "cd_processo_formatado"
+            },
+            {
+              "name": "url_edital",
+              "type": "any"
+            },
+            {
+              "type": "string",
+              "name": "orgao"
+            },
+            {
+              "type": "string",
+              "name": "procedimento"
+            },
+            {
+              "type": "string",
+              "name": "objeto"
+            },
+            {
+              "type": "string",
+              "name": "situacao"
+            },
+            {
+              "type": "string",
+              "name": "criterio_julgamento"
+            },
+            {
+              "type": "string",
+              "name": "tp_licitacao"
+            },
+            {
+              "type": "string",
+              "name": "dt_cad_processo"
+            },
+            {
+              "type": "string",
+              "name": "vr_referencia"
+            },
+            {
+              "type": "string",
+              "name": "vr_homologado"
+            }
+          ]
+        },
+        "name": "dm_processo",
+        "profile": "tabular-data-resource",
+        "scheme": "file",
+        "format": "csv",
+        "hashing": "md5",
+        "stats": {
+          "hash": "1eff6197dcc555a9e4e0c95428ddbd98",
+          "bytes": 91552796,
+          "fields": 14,
+          "rows": 321695
+        },
+        "encoding": "utf-8",
+        "dialect": {
+          "delimiter": ";"
+        }
+      },
+      "time": 12.727,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [
+        {
+          "cell": "",
+          "fieldName": "vr_homologado",
+          "fieldNumber": 14,
+          "fieldPosition": 14,
+          "cells": [
+            "28197",
+            "5140",
+            "51410010000882000",
+            "5141001 000088/2010",
+            "",
+            "CIA DE TECNOLOGIA DA INFORMACAO DO ESTADO DE MG",
+            "DISPENSA DE LICITACAO - POR VALOR",
+            "200 CENTOS COPOS DESCARTÁVEIS BRANCOS LEITOSO, CORPO FRISADO, BORDAS ARREDONDADAS, SEM TELESCOPAMENTO, CAPACIDADE 200 ML, EM POLIPROPILENO, PESO 2,2 GRAMAS, EM SACOS PLÁSTICOS LACRADOS, \"ABNT 14.865\";Concluído\"",
+            "Por lote",
+            "Menor Preço",
+            "12/05/2010",
+            "420,00",
+            "398,00"
+          ],
+          "rowNumber": 27481,
+          "rowPosition": 27482,
+          "code": "missing-cell",
+          "name": "Missing Cell",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "",
+          "message": "Row at position \"27482\" has a missing cell in field \"vr_homologado\" at position \"14\"",
+          "description": "This row has less values compared to the header row (the first row in the data source). A key concept is that all the rows in tabular data must have the same number of columns."
+        },
+        {
+          "cell": "",
+          "fieldName": "vr_homologado",
+          "fieldNumber": 14,
+          "fieldPosition": 14,
+          "cells": [
+            "208467",
+            "1650",
+            "16510020000102000",
+            "1651002 000010/2016",
+            "https://www1.compras.mg.gov.br/processocompra/processo/consultaEditalRetificaoProcesso.html?metodo=visualizarEditalRetificao&id=388433",
+            "SEC DE EST DE DIREITOS HUMANOS, PART.SOCIAL E CIDA",
+            "PREGAO",
+            "Prestação de serviços de organização, execução de eventos e atividades correlatas ou inerentes, visando viabilizar a realização do “Encontro dos Movimentos Populares Brasileiros em Diálogo com o Papa\";Concluído\"",
+            "Por lote",
+            "Menor Preço",
+            "05/05/2016",
+            "446825,00",
+            "304388,88"
+          ],
+          "rowNumber": 209038,
+          "rowPosition": 209039,
+          "code": "missing-cell",
+          "name": "Missing Cell",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "",
+          "message": "Row at position \"209039\" has a missing cell in field \"vr_homologado\" at position \"14\"",
+          "description": "This row has less values compared to the header row (the first row in the data source). A key concept is that all the rows in tabular data must have the same number of columns."
+        },
+        {
+          "cell": "",
+          "fieldName": "vr_homologado",
+          "fieldNumber": 14,
+          "fieldPosition": 14,
+          "cells": [
+            "314406",
+            "1090",
+            "10910020002532000",
+            "1091002 000253/2019",
+            "",
+            "PROCURADORIA GERAL DE JUSTICA",
+            "INEXIGIBILIDADE",
+            "Inscrição de 3 servidores, quais sejam, Larissa Azevedo, Fernanda Bloise e Marcelo Silva Duarte no \"Curso Prático: Gestão de Materiais, Suprimentos, Compras, Almoxarifado e Patrimônio na Adm.Pública\";Concluído\"",
+            "Por item",
+            "Menor Preço",
+            "11/11/2019",
+            "6720,00",
+            "6720,00"
+          ],
+          "rowNumber": 318550,
+          "rowPosition": 318551,
+          "code": "missing-cell",
+          "name": "Missing Cell",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "",
+          "message": "Row at position \"318551\" has a missing cell in field \"vr_homologado\" at position \"14\"",
+          "description": "This row has less values compared to the header row (the first row in the data source). A key concept is that all the rows in tabular data must have the same number of columns."
+        }
+      ],
+      "stats": {
+        "errors": 3
+      },
+      "valid": false
+    }
+  ],
+  "stats": {
+    "errors": 3,
+    "tasks": 1
+  },
+  "valid": false
 }
