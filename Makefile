@@ -19,7 +19,6 @@ README.html: README.md reports/*
 
 clean:
 	@rm -rf data/*
-	@rm -rf reports/*
 
 vars:
 	@echo 'DATA_FILES:' $(DATA_FILES)
