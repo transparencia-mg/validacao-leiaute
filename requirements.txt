@@ -1,2 +1,2 @@
-frictionless
-livemark
+frictionless==4.29.0
+livemark==0.88.0
